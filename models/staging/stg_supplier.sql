@@ -14,3 +14,4 @@ SELECT
     s_acctbal,
     s_comment
 FROM source
+-- testing
