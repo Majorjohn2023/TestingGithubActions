@@ -1,3 +1,6 @@
+{{ config(materialized='view', tags=['staging', 'supplier']) }}
+
+
 WITH customer_orders AS (
     SELECT
         o_custkey,
@@ -18,4 +21,4 @@ customer_loyalty AS (
 )
 SELECT * FROM customer_loyalty
 
--- this is just testing
+-- this is just testingdfadsa
