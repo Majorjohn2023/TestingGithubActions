@@ -14,3 +14,6 @@ customer_return_rate AS (
     FROM customer_returns
 )
 SELECT * FROM customer_return_rate
+
+
+-- adsjasbakbd
