@@ -11,7 +11,7 @@ customer_segmentation AS (
         o_custkey,
         total_spending,
         CASE
-            WHEN total_spending > 12000 THEN 'Premium'
+            WHEN total_spending > 13000 THEN 'Premium'
             WHEN total_spending > 5000 THEN 'Gold'
             ELSE 'Silver'
         END AS customer_segment
