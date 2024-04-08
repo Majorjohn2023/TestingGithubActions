@@ -25,3 +25,4 @@ models:
       +schema: staging  # Prefix added to the schema, models will be in 'staging' schema.
       tpch:
         +schema: tpch  # Models under models/tpch will be in 'tpch' schema.
+        
