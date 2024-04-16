@@ -21,4 +21,4 @@ customer_loyalty AS (
 )
 SELECT * FROM customer_loyalty
 
--- this is just testingdfadsa testingcomment on 16th April
+-- this is just testingdfadsa testingcomment on 16th April202
