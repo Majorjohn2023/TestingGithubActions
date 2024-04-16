@@ -1,4 +1,4 @@
--- models/staging/stg_customers.sql
+-- models/staging/stg_customers.sql. this is me testing things out
 {{ config(materialized='view', tags=['staging', 'customers']) }}
 
 WITH source AS (
