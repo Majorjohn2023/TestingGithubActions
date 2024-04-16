@@ -1,4 +1,4 @@
--- models/staging/stg_part.sql This is me testing dbt 
+models/staging/stg_part.sql. this is me testing things out
 {{ config(materialized='view', tags=['staging', 'part']) }}
 
 WITH source AS (
