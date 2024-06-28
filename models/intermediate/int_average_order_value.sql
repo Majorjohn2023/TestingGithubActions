@@ -15,3 +15,5 @@ average_order_value AS (
     FROM order_values
 )
 SELECT * FROM average_order_value
+
+-- asdca
