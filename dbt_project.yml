@@ -16,3 +16,18 @@ clean-targets:  # Directories dbt will clean when you run dbt clean.
   - "target"
   - "dbt_modules"
 
+-- # dbt_project.yml
+
+-- name: 'my_dbt_project'
+-- version: '1.0'
+-- config-version: 2
+
+-- # Optional: Define which models to include
+-- models:
+--   my_dbt_project:
+--     +materialized: view
+--     # Include all models by default
+--     my_first_dbt_model: {}
+--     qapython: {}
+
+
