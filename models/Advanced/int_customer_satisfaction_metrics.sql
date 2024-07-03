@@ -21,9 +21,5 @@ customer_satisfaction AS (
     FROM customer_feedback
 )
 SELECT * FROM customer_satisfaction
-<<<<<<< HEAD
--- czczvcz
-=======
 
--- adsvs
->>>>>>> branch 'main' of git@github.com:Majorjohn2023/Actual-Lineage-Files.git
+-- asdvc
