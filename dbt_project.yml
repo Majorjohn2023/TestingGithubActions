@@ -20,3 +20,4 @@ clean-targets:  # Directories dbt will clean when you run dbt clean.
 
 
 
+"RAWDATA_DB"."ANKITA_DEV_SCHEMA"."MY_SECOND_DBT_MODEL"
