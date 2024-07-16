@@ -1,4 +1,4 @@
-your_profile_name:
+default:
   target: prod
   outputs:
     prod:
