@@ -1,4 +1,4 @@
-Welcome to the dbt Labs Snowflake Demo Project! 
+Welcome to the dbt Labs Snowflake Demo Project! as
 
 This dbt project is intended to showcase key Snowflake + dbt functionalities in terms of 
 workflow, modeling, and operationalizing. 
