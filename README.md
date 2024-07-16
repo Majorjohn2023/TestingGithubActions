@@ -9,7 +9,7 @@ In order to successfully run this project, you will need the following:
 - A Snowflake account
 - dbt Cloud account
 - Snowflake Sample Data [The TPC-H dataset that is standard with every account](https://docs.snowflake.com/en/user-guide/sample-data-tpch.html)
-- Default Snowflake warehouse named compute_wh 
+- Default Snowflake warehouse named compute_wh sdsd
 
 ### Using the demo project
 
