@@ -5,6 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
+
 jobs:
   dbt:
     name: dbt
@@ -25,12 +27,13 @@ jobs:
 
     - name: Create profiles.yml
       run: |
+        mkdir -p ~/.dbt
         echo "default:
           target: prod
           outputs:
             prod:
               type: snowflake
-              account:nnb42337.us-east-1
+              account: nnb42337.us-east-1
               user: anurag
               password: gBfWXMARUu@9
               role: accountadmin
