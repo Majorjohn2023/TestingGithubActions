@@ -25,28 +25,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install dbt-core dbt-snowflake
 
-    - name: Create profiles.yml
-      run: |
-        mkdir -p ~/.dbt
-        echo "default:
-          target: prod
-          outputs:
-            prod:
-              type: snowflake
-              account: nnb42337.us-east-1
-              user: anurag
-              password: gBfWXMARUu@9
-              role: accountadmin
-              warehouse: compute_wh
-              database: rawdata_db
-              schema: demo
-              threads: 4
-              client_session_keep_alive: False" > ~/.dbt/profiles.yml
-    
     - name: Run dbt
       run: |
-        dbt debug --profiles-dir ~/.dbt
-        dbt deps --profiles-dir ~/.dbt
-        dbt compile --profiles-dir ~/.dbt
-        dbt run --profiles-dir ~/.dbt
-        dbt test --profiles-dir ~/.dbt
+        dbt debug
+        dbt deps
+        dbt compile
+        dbt run
+        dbt test
