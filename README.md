@@ -31,7 +31,7 @@ if you're unable to do this, here are the steps.
 13. Generate docs by running `dbt docs generate` and click on the `View Docs` on the left hand side. 
 14. Check out the docs site and click on the blue button on the botton to view the DAG. Right click on a node to refocus. Then right click again to view the docs.
 15. Create a production environment by clicking on the hamburger menu > environments. 
-16. Create a production job by clicking on the hamburger menu > jobs > create the job.
+16. Create a production job by clicking on the hamburger menu > jobs > create the job.add
 17. Run the production job. 
 
 If you have time, take a look at other aspects of the project. We have included other fun features for you to see, including:
